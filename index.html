@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE IN BOOTSTRAP</title>
+
+
+    <!-- BOOTSTARAP CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- font-awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Gupter:wght@400;500;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Gupter:wght@400;500;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<style>
+  * {
+      font-family: "Gupter", serif;
+  }
+  .shop-by-collection h2 {
+      font-family: "Bebas Neue", sans-serif;
+       font-size: 70px;
+       text-align: center;
+       text-decoration: underline;
+       border: none;
+
+  }
+  .footer {
+      background-color: #f8f9fa;
+      padding: 20px 0;
+      text-align: center;
+    }
+    .footer a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+  
+</style>
+</head>
+<body>
+
+  <marquee width="100%" direction="left" height="40px" scrollamount="12"> <h1 class="text-dark p-1 me-2 fs-2"> 🔥 SUMMER SALE 🌻 UP TO 50% OFF+ EXTRA SAVING! 👉 SHOP NOW</h1> </marquee>
+    <!-- navbar -->
+    <p class="text-light bg-dark"></p>
+<nav class="navbar bg-warning fs-4">
+    <div class="container-fluid">
+        <a class="navbar-brand fs-1 "><h1 style="font-size: 60px; margin-left: 40px;">NEATHOUZ</h1></a>
+        <form class="d-flex" role="search">
+            <div class="d-flex align-items-center" >
+                <i class="fa-solid fa-magnifying-glass me-5"></i>
+                <i class="fa-regular fa-user me-5" ></i>
+                <i class="fa-regular fa-heart me-5"></i>
+                <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+        </form>
+    </div>
+</nav>
+      <div class="bg-light py-2 fs-4">
+        <ol class="list-unstyled d-flex justify-content-around p-3 m-2">
+            <li><a href="#" class="text-decoration-none  fw-bold text-danger "> 🔥Summer Sale</a></li>
+            <li><a href="#" class="text-decoration-none text-dark fw-bold">Pillow & Cushion</a></li>
+            <li><a href="#" class="text-decoration-none text-dark fw-bold">Pajama Set</a></li>
+            <li><a href="#" class="text-decoration-none text-dark fw-bold">Safa Cover</a></li>
+            <li><a href="#" class="text-decoration-none text-dark fw-bold">Matching Slipcover</a></li>
+        </ol>
+      </div>
+      <!-- carousel -->
+
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://thearchitectsdiary.com/wp-content/uploads/2020/04/OLVVI_-the-crossboundaries-6.jpg" class="d-block w-100" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img src="https://wallpaperaccess.com/full/2076086.jpg" class="d-block w-100  " alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img src="https://cdn.decorilla.com/online-decorating/wp-content/uploads/2021/03/Glamorous-living-room-with-high-end-items-from-NYC-furniture-stores.jpeg" class="d-block w-100" alt="third slide">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+<!-- IMAGE -->
+<hr>
+<div class="shop-by-collection">
+  <h2 >SHOP BY COLLECTION</h2>
+  <br>
+  <div class="p-2">
+      <div class="m-3 d-flex justify-content-around">
+          <div class="col2 text-center">
+              <img width="200px" height="200px" src="https://www.neathouz.com/cdn/shop/products/ef4e53d14c6389f20f094f23aff2ad3c.jpg?v=1677043862&width=500" class="rounded-circle" alt="Pillow Covers">
+              <p>Pillow Covers</p>
+          </div>
+          <div class="col2 text-center">
+              <img width="200px" height="200px" src="https://www.neathouz.com/cdn/shop/products/7_923b24c4-72ea-4da4-bf66-44b35fcec4e1.jpg?v=1690524815&width=500" class="rounded-circle" alt="Office Chair">
+              <p>Office Chair</p>
+          </div>
+          <div class="col2 text-center">
+              <img width="200px" height="200px" src="https://www.neathouz.com/cdn/shop/products/SKU-01-DarkGrey3Seater.jpg?v=1710491515&width=500" class="rounded-circle" alt="PU Leather Recliner Sofa Slipcovers">
+              <p>PU Leather Recliner Sofa Slipcovers</p>
+          </div>
+          <div class="col2 text-center">
+              <img width="200px" height="200px" src="https://www.neathouz.com/cdn/shop/files/1_a364f111-a17e-4d26-b89f-99dc33cc2c3f.jpg?v=1689066178&width=500" class="rounded-circle" alt="Stretch Club Armchair Slipcovers">
+              <p>Stretch Club Armchair Slipcovers</p>
+          </div>
+          <div class="col2 text-center">
+              <img width="200px" height="200px" src="https://www.neathouz.com/cdn/shop/products/23_1d175467-0fde-4a44-bb8f-b74d8d85884a.jpg?v=1667289584&width=500" class="rounded-circle" alt="Chair Seat Cover Waterproof Dark Gray">
+              <p>Chair Seat Cover Waterproof Dark Gray</p>
+          </div>
+          <div class="col2 text-center">
+              <img width="200px" height="200px" src="https://www.neathouz.com/cdn/shop/products/9_2x_f25fc302-bf34-40c6-8a59-f3e53901f245.png?v=1671763123&width=400" class="rounded-circle" alt="Image 6">
+              <p>Image 6</p>
+          </div>
+      </div>
+  </div>
+</div>
+<hr>
+<div class="shop-by-collection"> <h2> HOT SALE THIS MONTH</h2></div>
+
+
+<div class="m-3 d-flex justify-content-around">
+  <div class="card" style="width: 18rem; position: relative;">
+    <span class="badge rounded-pill text-bg-danger" style="position: absolute; top: 10px; left: 10px; z-index: 1;">43% OFF</span>
+    <img src="https://www.neathouz.com/cdn/shop/files/3_c2388d2a-d0ed-4610-9683-59e49b6dd3b8.jpg?v=1706160213&width=500" class="card-img-top" alt="Product Image">
+  
+    <div class="card-body">
+      <h5 class="card-title">Stretch Jacquard Non-Slip Thick Soft Split Recliner Cover</h5>
+      <p class="card-text"> 
+         $59.99 </p>
+        <p style="text-decoration: line-through;" >$119.98</p>
+         <div> <p>RATE: <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></p></div>
+      <div>
+        <a href="#" class="btn btn-outline-success  me-4 ms-3z">Add to Cart</a>
+      <a href="#" class="btn btn-primary ">But Now</a>
+    </div>
+    </div>
+  </div>
+<div class="card" style="width: 18rem; position: relative;">
+  <span class="badge rounded-pill text-bg-danger" style="position: absolute; top: 10px; left: 10px; z-index: 1;">59% OFF</span>
+  <img src="https://www.neathouz.com/cdn/shop/products/06_569a2647-3256-4a4d-a028-bdafff2e158c.jpg?v=1689563363&width=500" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">4 Pieces Pattern Strechable Recliner Chair Slipcovers</h5>
+    <p class="card-text"> 
+      $72.99 </p>
+     <p style="text-decoration: line-through;" >$219.98</p>
+      <div> <p>RATE: <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></p></div>
+   <div>
+     <a href="#" class="btn btn-outline-success  me-4 ms-3z">Add to Cart</a>
+   <a href="#" class="btn btn-primary ">But Now</a>
+ </div>
+ </div>
+</div>
+<div class="card" style="width: 18rem; position: relative;">
+  <span class="badge rounded-pill text-bg-danger" style="position: absolute; top: 10px; left: 10px; z-index: 1;">63% OFF</span>  <img src="https://www.neathouz.com/cdn/shop/products/61YcFOL94pL._AC_SL12002x_2x_b1681842-2296-42bf-b73e-3f74ca6ce49a.png?v=1678781142&width=500" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Stretch Sofa Covers with Separate Backrests 
+      </h5>
+    <p class="card-text"> 
+      $61.49 </p>
+     <p style="text-decoration: line-through;" >$249.98</p>
+      <div> <p>RATE: <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></p></div>
+   <div>
+     <a href="#" class="btn btn-outline-success  me-4 ms-3z">Add to Cart</a>
+   <a href="#" class="btn btn-primary ">But Now</a>
+ </div>
+ </div>
+</div>
+<div class="card" style="width: 18rem; position: relative;">
+  <span class="badge rounded-pill text-bg-danger" style="position: absolute; top: 10px; left: 10px; z-index: 1;">53% OFF</span>  <img src="https://www.neathouz.com/cdn/shop/products/loveseatblack.jpg?v=1665727944&width=500" class="card-img-top" alt="..." >
+  <div class="card-body">
+    <h5 class="card-title">Stretch Loveseat Couch Slipcover Recliner Slipcover  Recliner Cover</h5>
+    <p class="card-text"> 
+      $91.49 </p>
+     <p style="text-decoration: line-through;" >$347.98</p>
+      <div> <p>RATE: <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></p></div>
+   <div>
+     <a href="#" class="btn btn-outline-success  me-4 ms-3z">Add to Cart</a>
+   <a href="#" class="btn btn-primary ">But Now</a>
+ </div>
+ </div>
+</div>
+</div>
+
+
+<div class="shop-by-collection"> <h2> SUMMER SALE</h2></div>
+
+<div class="m-3 d-flex justify-content-around ">
+  <div class="card" style="width: 18rem; position: relative;">
+    <span class="badge rounded-pill text-bg-success" style="position: absolute; top: 10px; left: 10px; z-index: 1;">summer sale</span>  <img src="https://www.neathouz.com/cdn/shop/products/SKU-02_56b21e10-4a96-4d8a-8d81-79feb83e84b7.jpg?v=1676452157&width=500" class="card-img-top" alt="..." >
+    <div class="card-body">
+      <h5 class="card-title">Double Flip Lid & Handles</h5>
+      <p class="card-text"> 
+        $11.49 </p>
+       <p style="text-decoration: line-through;" >$77.98</p>
+        <div> <p>RATE: <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></p></div>
+     <div>
+       <a href="#" class="btn btn-outline-success  me-4 ms-3z">Add to Cart</a>
+     <a href="#" class="btn btn-primary ">But Now</a>
+   </div>
+   </div>
+  </div>
+  <div class="card" style="width: 18rem; position: relative;">
+    <span class="badge rounded-pill text-bg-success" style="position: absolute; top: 10px; left: 10px; z-index: 1;">summer sale</span>   <img src="https://www.neathouz.com/cdn/shop/files/f6e6e9bd25c344b5c1fd5e9c73a56039_5d895a29-85fc-4edc-aab8-a0ebc0f3c719.jpg?v=1693877156&width=700" class="card-img-top" alt="..." >
+    <div class="card-body"> <br><br>
+      <h5 class="card-title">Stretch Sofa Covers with   and, 8 Seat of Cushions</h5>
+      <p class="card-text"> 
+        $31.49 </p>
+       <p style="text-decoration: line-through;" >$147.98</p>
+        <div> <p>RATE: <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></p></div>
+     <div>
+       <a href="#" class="btn btn-outline-success  me-4 ms-3z">Add to Cart</a>
+     <a href="#" class="btn btn-primary ">But Now</a>
+   </div>
+   </div>
+  </div>
+  <div class="card" style="width: 18rem; position: relative;">
+    <span class="badge rounded-pill text-bg-success" style="position: absolute; top: 10px; left: 10px; z-index: 1;">summer sale</span>  <img src="https://cdn.shopify.com/s/files/1/0553/5390/1191/files/000878ce6144c05ffac949f66b05a18b_2a809ab3-0dd1-4738-8be7-277eca31bba3.jpg?v=1693876956&width=500" class="card-img-top" alt="..." >
+    <div class="card-body">
+      <h5 class="card-title">Slipcover Recliner Slipcover  </h5>
+      <p class="card-text"> 
+        $51.49 </p>
+       <p style="text-decoration: line-through;" >$547.98</p>
+        <div> <p>RATE: <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></p></div>
+     <div>
+       <a href="#" class="btn btn-outline-success  me-4 ms-3z">Add to Cart</a>
+     <a href="#" class="btn btn-primary ">But Now</a>
+   </div>
+   </div>
+  </div>
+  <div class="card" style="width: 18rem; position: relative;">
+    <span class="badge rounded-pill text-bg-success" style="position: absolute; top: 10px; left: 10px; z-index: 1;">summer sale</span>  <img src="https://cdn.shopify.com/s/files/1/0553/5390/1191/products/20220106164157_0a97a564-7abf-4439-bf93-ad366d1b5619.jpg?v=1660114436&width=500" class="card-img-top" alt="..." >
+    <div class="card-body">
+      <h5 class="card-title">Solid Color Stretchable Dining </h5>
+      <p class="card-text"> 
+        $51.49 </p>
+       <p style="text-decoration: line-through;" >$247.98</p>
+        <div> <p>RATE: <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></p></div>
+     <div>
+       <a href="#" class="btn btn-outline-success  me-4 ms-3z">Add to Cart</a>
+     <a href="#" class="btn btn-primary ">But Now</a>
+   </div>
+   </div>
+  </div>
+  <div class="card" style="width: 18rem; position: relative;">
+    <span class="badge rounded-pill text-bg-success" style="position: absolute; top: 10px; left: 10px; z-index: 1;">summer sale</span>   <img src="https://cdn.shopify.com/s/files/1/0553/5390/1191/files/7947f0132815a37a6a3545d859f2c356_1710cef2-38c7-4a6f-b4a6-f4b5c45ee623.jpg?v=1693877191&width=500" class="card-img-top" alt="..." > <br>
+    <div class="card-body">
+      <h5 class="card-title">Stretch Sofa Covers with Separate Backrests and Seat Cushions</h5>
+      <p class="card-text"> 
+        $71.49 </p>
+       <p style="text-decoration: line-through;" >$227.98</p>
+        <div> <p>RATE: <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></p></div>
+     <div>
+       <a href="#" class="btn btn-outline-success  me-4 ms-3z">Add to Cart</a>
+     <a href="#" class="btn btn-primary ">But Now</a>
+   </div>
+   </div>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+    <!-- CARD -->
+    <div class="shop-by-collection"> <h2> CHAIR SLIPCOVERS</h2></div>
+     <div class="m-4 d-flex justify-content-around ">
+    <div class="card m-4  p-2" style="width: 18rem; ">
+        <img src="https://www.neathouz.com/cdn/shop/products/Light_Grey_7df4aa53-8e76-46ed-810a-bdebd4020044.jpg?v=1662001300&width=500" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Perfect Fit Stretch Chair Covers</h5>
+          <p class="card-text"> 
+            $54.49 </p>
+            
+            <p style="text-decoration: line-through;" >$247.98</p>
+            <div> <p>RATE: <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></p></div>
+          <div>
+            <a href="#" class="btn btn-outline-success  me-4 ms-3z">Add to Cart</a>
+          <a href="#" class="btn btn-primary ">But Now</a>
+          
+        </div>
+        </div>
+      </div>
+      <div class="card m-4 p-2" style="width: 18rem; ">
+        <img src="https://www.neathouz.com/cdn/shop/products/t06-m20-p01-s01-dark-red-5_3300e5bc-804c-4347-9963-f0a4f3227073.jpg?v=1676358132&width=900" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Soft Spandex Stretch Dining Chair Covers
+            </h5>
+           <p class="card-text"> 
+            $31.49 </p>
+            
+            <p style="text-decoration: line-through;" >$117.98</p>
+            <div> <p>RATE: <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></p></div>
+          <div>
+            <a href="#" class="btn btn-outline-success me-4 ms-3">Add to Cart</a>
+          <a href="#" class="btn btn-primary">But Now</a>
+        </div>
+        </div>
+      </div>
+      <div class="card m-4 p-2" style="width: 18rem; ">
+        <img src="https://www.neathouz.com/cdn/shop/files/01_0895c80a-f33f-4bf1-a780-ebdf895f0c75.jpg?v=1705909796&width=900" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">2024 New Spandex Printed Stretch Dining Chair Cover</h5>
+          <p class="card-text"> 
+            $61.49 </p>
+            
+            <p style="text-decoration: line-through;" >$217.98</p>
+            <div> <p>RATE: <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></p></div>
+          <div>
+            <a href="#" class="btn btn-outline-success me-4 ms-3">Add to Cart</a>
+          <a href="#" class="btn btn-primary">But Now</a>
+        </div>
+        </div>
+      </div>
+      <div class="card m-4  p-2" style="width: 18rem; ">
+        <img src="https://www.neathouz.com/cdn/shop/products/SKU-03_095451d1-1263-4c6d-8f6d-958816548774.jpg?v=1687138799&width=800" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Thick Jacquard Leaf Pattern Dining Chair Cover</h5>
+          <p class="card-text"> 
+            $81.49 </p>
+            
+            <p style="text-decoration: line-through;" >$107.98</p>
+            <div> <p>RATE: <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></p></div>
+          <div>
+            <a href="#" class="btn btn-outline-success me-4 ms-3">Add to Cart</a>
+          <a href="#" class="btn btn-primary">But Now</a>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container my-4">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="https://www.trustindex.io/wp-content/uploads/2021/02/review2.png" class="img-thumbnail" alt="Customer Review Image">
+        </div>
+        <div class="col-md-8 d-flex align-items-center">
+          <div>
+            <h1>Real Review From Real Customers</h1>
+            <button class="btn btn-dark mb-2">⭐⭐⭐⭐⭐ 5.0</button>
+            <p>These sofa covers are the best. Very soft, just what I was looking for. Very comfortable and easy to clean. They are washable, so easy to maintain. I have twin kids, they play on the sofa all the time, and these covers are very good at being non-slip. Really liked them and will recommend. I've used them for a while.</p>
+            <p class="text-muted">— Juile B</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <footer class="bg-dark text-light text-center py-4">
+      <p>&copy; 2024 Neathouz. All rights reserved.</p>
+      <p>Follow us on:
+        <a href="#" class="text-light ms-2"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" class="text-light ms-2"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" class="text-light ms-2"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" class="text-light ms-2"><i class="fa-brands fa-pinterest"></i></a>
+      </p>
+    </div>
+    <p class="mt-2">Contact us at: <a href="mailto:info@yourcompany.com">Neathouz@gamil.com</a> | Phone: +1 (234) 567-8900</p>
+  </div>
+    </footer>
+    
+
+</body>
+</html>
